@@ -58,7 +58,7 @@ inputs:
     description: Location to source aqtinstall from in case of issues
   aqtversion:
     description: Version of aqtinstall to use in case of issues
-    default: ==3.1.*
+    default: ==3.2.*
   py7zrversion:
     description: Version of py7zr to use in case of issues
     default: ==0.20.*
@@ -93,7 +93,7 @@ runs:
       python-version: '3.6.x - 3.11.x'
 
   - name: Setup and run aqtinstall
-    uses: Kidev/install-qt-action/action@v4
+    uses: Kidev/install-qt-action/action@v4.2.2
     with:
       dir: ${{ inputs.dir }}
       version: ${{ inputs.version }}
