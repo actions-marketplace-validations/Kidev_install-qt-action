@@ -16,7 +16,7 @@ Backward compatibility is maintained, but in order to have WASM working with Qt 
 
   ```yml
   - name: Install Qt for host & target architecture
-  uses: Kidev/install-qt-action@v4.2.0
+  uses: Kidev/install-qt-action@v4.2.1
   with:
     aqtversion: '==3.2.*'
     version: '6.8.0'
@@ -37,7 +37,7 @@ You know what's easier than dealing with that? Just using this:
 
 ```yml
 - name: Install Qt
-  uses: Kidev/install-qt-action@v4.2.0
+  uses: Kidev/install-qt-action@v4.2.1
 ```
 
 All done.
